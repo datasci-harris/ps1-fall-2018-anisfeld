@@ -31,6 +31,7 @@ library(tidyverse)
     If you are really interested in automatic numbering see a TA.
     
     Try knit to html before proceeding to see what the output will look like!
+    Peter says "hello studious james"
     -->
     
     
