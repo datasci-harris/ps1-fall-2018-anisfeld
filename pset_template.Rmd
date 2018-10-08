@@ -1,5 +1,5 @@
 ---
-title: "The Title Here"
+title: "Test"
 author: "Your Name Here"
 date: "The Date Here"
 output:
@@ -48,3 +48,6 @@ ggplot(mpg, aes(manufacturer)) + geom_bar()
 # CODE GOES HERE
 ggplot(mtcars, aes(factor(cyl), mpg)) + geom_violin(aes(fill=mpg))
 ```
+
+Testing merging
+
