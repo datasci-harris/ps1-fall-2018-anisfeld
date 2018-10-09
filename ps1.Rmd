@@ -1,7 +1,7 @@
 ---
 title: "Test"
 author: "Your Name Here"
-date: "TODAY"
+date: "The Date Here"
 output:
   html_document:
     number_sections: true
@@ -9,7 +9,7 @@ output:
 **Front matter**
 
 This submission is my work alone and complies with the 30531 integrity policy.
-
+  
   Add your initials to indicate your agreement: **__**
 
 
@@ -22,31 +22,32 @@ library(tidyverse)
 
 # R4DS Exercises
 ## Section heading goes here
-<!--Please do your best to match the problem set numbering. This will happen
+<!--Please do your best to match the problem set numbering. This will happen 
     automatically if you follow the pattern of #s.
-
-    One # gives you a main heading;
-    two ## give a sub-heading.
-    For the next layer of numbering, please follow the numbering manually;
+    
+    One # gives you a main heading; 
+    two ## give a sub-heading. 
+    For the next layer of numbering, please follow the numbering manually; 
     If you are really interested in automatic numbering see a TA.
-
+    
     Try knit to html before proceeding to see what the output will look like!
-    Peter says "hello studious james"
     -->
-
-
+    
+    
 1. TEXT ANSWER GOES HERE
 
 ```{r}
 # CODE GOES HERE
 ggplot(mpg, aes(manufacturer)) + geom_bar()
+#feedback: your code is awesome
 ```
 
 2. TEXT ANSWER GOES HERE
+
+Feedback: what a gorgeous plot!
 
 ```{r}
 # CODE GOES HERE
 ggplot(mtcars, aes(factor(cyl), mpg)) + geom_violin(aes(fill=mpg))
 ```
 
-Testing merging
